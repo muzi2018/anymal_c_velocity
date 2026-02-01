@@ -14,6 +14,7 @@ build-backend = "uv_build"
 
 [tool.uv.sources]
 mjlab = { path = "../mjlab", editable = true }
+mujoco-warp = { git = "https://github.com/google-deepmind/mujoco_warp", rev = "1dc288cf1fa819fc3346ec5c9546e2cc2b7be667"}
 
 [dependency-groups]
 dev = [
