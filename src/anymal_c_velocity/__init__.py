@@ -22,3 +22,5 @@ register_mjlab_task(
   rl_cfg=anymal_c_ppo_runner_cfg(),
   runner_cls=VelocityOnPolicyRunner,
 )
+
+

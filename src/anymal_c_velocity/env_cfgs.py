@@ -18,7 +18,7 @@ def anymal_c_rough_env_cfg(play: bool = False) -> ManagerBasedRlEnvCfg:
   """Create ANYmal C rough terrain velocity configuration."""
   cfg = make_velocity_env_cfg()
 
-  cfg.sim.mujoco.ccd_iterations = 500
+  cfg.sim.mujoco.ccd_iterations = 500   
   cfg.sim.contact_sensor_maxmatch = 500
 
   cfg.scene.entities = {"robot": get_anymal_c_robot_cfg()}
